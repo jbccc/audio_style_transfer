@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "proj-sdsc"
+version = "0.1.0"
+description = ""
+authors = ["Jean-Baptiste Conan <48089220+jbccc@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "proj_sdsc"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.0.1"
+torchvision = "^0.15.2"
+torchaudio = "^2.0.2"
+lightning = "^2.0.3"
+wandb = "^0.15.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
