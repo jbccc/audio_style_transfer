@@ -13,6 +13,10 @@ torchvision = "^0.15.2"
 torchaudio = "^2.0.2"
 lightning = "^2.0.3"
 wandb = "^0.15.4"
+librosa = "^0.10.0.post2"
+tqdm = "^4.66.1"
+matplotlib = "^3.7.2"
+soundfile = "^0.12.1"
 
 
 [tool.poetry.group.dev.dependencies]
