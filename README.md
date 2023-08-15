@@ -6,7 +6,7 @@ Although our method did not work in the end (especially because of the dataset),
 
 ## Code 
 
-The code is written in python 3.9. The repositories was initialized using poetry. I have also included a requirements.txt in the conda/ repository.
+The code is written in python 3.9. The repositories was initialized using poetry.
 
 You can easily import the package `proj_sdsc` and use the function that composes it. I know there is imperfection but I will try to refactor everything as soon as possible.
 
